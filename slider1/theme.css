@@ -1,0 +1,170 @@
+.frase{
+	/*float:left;*/
+	border:2px solid #FFF;
+	color:#FFFFFF;
+/*	font-family: 'calibri', Arial, Helvetica, sans-serif;*/
+	font-size:40px;
+	line-height:90%;
+	margin-top:23%;
+	padding:2%;
+	position:absolute;
+    text-align:center;
+	text-shadow:2px 1px 2px #2E2E2E;
+	width:50%;
+	margin-left:24%;
+	margin-right:24%;
+	z-index:2;
+}
+
+.frase1{
+	/*float:left;*/
+	color:#FFFFFF;
+/*	font-family: 'calibri', Arial, Helvetica, sans-serif;*/
+	font-size:18.5px;
+	line-height:90%;
+	margin-top:33%;
+	position:absolute;
+    text-align:center;
+	text-shadow:2px 1px 2px #2E2E2E;
+	z-index:2;
+}
+
+.owl-theme .owl-controls{
+	position:relative;
+	margin-top: -5%;
+	text-align:center;
+	z-index:1;
+}
+
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 0px;
+	padding: 3px 10px;
+	font-size: 0px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+/*	background: #869791;*/
+	filter: Alpha(Opacity=10);/*IE7 fix*/
+	opacity: 0.1;
+}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=10);/*IE7 fix*/
+	opacity: 10;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 5px;
+	filter: Alpha(Opacity=90);/*IE7 fix*/
+	opacity: 0.9;
+	-webkit-border-radius: 20px; /* radius es 20 circular*/
+	-moz-border-radius: 20px; /* radius es 20 circular*/
+	border-radius: 20px;	/* radius es 20 circular*/
+	background-color: #FFFFFF;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+/*	filter: Alpha(Opacity=100);/*IE7 fix
+	opacity: 1;*/
+	background-color:#6A383B; /*COLOR DEL BOTON SOBRE*/
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(/web/20190524152534im_/https://www.hotelchavinsenorial.com/slider1/loading.gif) no-repeat center center;
+}
+
+/*@media (max-width: 768px) {*/
+@media (max-width: 768px) {
+
+.owl-theme .owl-controls{
+	position:relative;
+	margin-top: -10%; /*altura botones*/
+	text-align:center;
+	z-index:1;
+	display:none;
+}
+
+.frase{
+	display:block;
+    font-size:28px;
+	margin-top:10%;
+		width:78%;
+	margin-left:11%;
+	margin-right:11%;
+}
+
+.frase1{
+	display:none;
+    font-size:14px;
+	margin-top:21%;
+}
+
+
+}
+
+@media (max-width: 480px) {
+
+
+.frase{
+	display:none;
+
+}
+
+
+
+}
+
+/*
+     FILE ARCHIVED ON 15:25:34 May 24, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:19:33 May 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 5.822
+  exclusion.robots: 0.232
+  exclusion.robots.policy: 0.221
+  esindex: 0.01
+  cdx.remote: 85.237
+  LoadShardBlock: 233.529 (3)
+  PetaboxLoader3.datanode: 218.415 (4)
+  load_resource: 114.124
+  PetaboxLoader3.resolve: 84.1
+*/

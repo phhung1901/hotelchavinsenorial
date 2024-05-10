@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+body{
+margin:0px;
+}
+
+/*p { 
+font-size: 16px;
+text-indent:0px;
+}*/
+
+#owl-demo .owl-item div{
+  padding:0px;
+  border:0px;
+}
+#owl-demo .owl-item img{
+  display: block;
+  width: 100%; /*ANCHO DEL IMAGEN ANIMACION*/
+  height: auto;
+  margin-top:0px;
+/*  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;*/
+}
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	-ms-touch-action: pan-y;
+	width: 100%;
+/*	max-width: 1170px;*/
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	cursor:url(/web/20190525004430im_/https://www.hotelchavinsenorial.com/slider1/grabbing.png) 16 16, move;
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 10ms ease-in-out;
+	-moz-transition: height 10ms ease-in-out;
+	-ms-transition: height 10ms ease-in-out;
+	-o-transition: height 10ms ease-in-out;
+	transition: height 10ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(/web/20190525004430im_/https://www.hotelchavinsenorial.com/slider1/grabbing.png) 16 16, move;
+}
+
+/* fix */
+/*.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}*/
+
+
+/*
+     FILE ARCHIVED ON 00:44:30 May 25, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:19:32 May 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.737
+  exclusion.robots: 0.253
+  exclusion.robots.policy: 0.238
+  esindex: 0.008
+  cdx.remote: 5.32
+  LoadShardBlock: 244.581 (3)
+  PetaboxLoader3.datanode: 258.795 (4)
+  load_resource: 115.0
+  PetaboxLoader3.resolve: 42.007
+*/

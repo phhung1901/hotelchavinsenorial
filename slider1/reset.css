@@ -1,0 +1,96 @@
+body{
+/*	font:62.5% Arial,Helvetica,sans-serif;*/
+	height:100%;
+}
+body,div,dl,dt,dd,/*ul,ol,li,*/h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,span{
+margin:0;padding:0;
+}
+
+table{
+border-collapse:collapse;border-spacing:0;width:100%;
+}
+
+fieldset,img,abbr,acronym{
+border:0;
+}
+
+address,caption,cite,code,dfn,th,var{
+font-style:normal;
+font-weight:normal;
+}
+
+ol,ul,dl{
+list-style:none;
+}
+
+caption,th{
+text-align:left;
+}
+
+img{
+border:0;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+font-size:1em;
+font-size:100%;
+font-weight:normal;
+}
+
+a{
+outline:none;
+}
+
+.clearfix:after{
+visibility:hidden;
+display:block;
+font-size:0;
+content:" ";
+clear:both;
+height:0;
+}
+
+.clearfix{
+display:inline-block;
+}
+
+* html .clearfix{
+height:1%;
+}
+
+.clearfix{
+display:block;
+}
+
+.flotarIzq{
+float:left;
+display:inline;
+}
+
+.flotarDer{
+float:right;
+display:inline;
+}
+
+
+/*
+     FILE ARCHIVED ON 14:22:27 May 24, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:19:35 May 10, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.966
+  exclusion.robots: 0.287
+  exclusion.robots.policy: 0.274
+  esindex: 0.016
+  cdx.remote: 5.945
+  LoadShardBlock: 520.579 (3)
+  PetaboxLoader3.datanode: 98.851 (4)
+  PetaboxLoader3.resolve: 562.556 (2)
+  load_resource: 165.585
+*/
