@@ -48,7 +48,7 @@ text-indent:0px;
 	display: none;
 	position: relative;
 	-webkit-transform: translate3d(0px, 0px, 0px);
-	cursor:url(/web/20190525004430im_/https://www.hotelchavinsenorial.com/slider1/grabbing.png) 16 16, move;
+	cursor:url(/slider1/grabbing.png) 16 16, move;
 }
 .owl-carousel .owl-wrapper-outer{
 	overflow: hidden;
@@ -82,7 +82,7 @@ text-indent:0px;
 
 /* mouse grab icon */
 .grabbing { 
-    cursor:url(/web/20190525004430im_/https://www.hotelchavinsenorial.com/slider1/grabbing.png) 16 16, move;
+    cursor:url(/slider1/grabbing.png) 16 16, move;
 }
 
 /* fix */
