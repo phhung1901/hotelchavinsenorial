@@ -1,5 +1,5 @@
 /*@license
-Archivos patentados por PUBLINET COMPANY S.A con RUC 20407814551 en Indecopi - Perú
+Archivos patentados por PUBLINET COMPANY S.A con RUC 20407814551 en Indecopi - Perï¿½
 Todos los Derechos Reservados, uso exclusivo para todos los clientes de la mencionada empresa.
 
 IMPORTANTE!!
@@ -13,11 +13,11 @@ Lea el Aviso Legal: www.publinet.com.pe/avisolegal.php
 
 @font-face{
 font-family:'calibri';
-src:url('/web/20180323010537im_/http://hotelchavinsenorial.com/fonts/calibri.eot');
-src:url('/web/20180323010537im_/http://hotelchavinsenorial.com/fonts/calibri.eot#iefix') format('embedded-opentype'),
-url('/web/20180323010537im_/http://hotelchavinsenorial.com/fonts/calibri.woff') format('woff'),
-url('/web/20180323010537im_/http://hotelchavinsenorial.com/fonts/calibri.ttf') format('truetype'),
-url('/web/20180323010537im_/http://hotelchavinsenorial.com/fonts/calibri.svg') format('svg');
+src:url('/fonts/calibri.eot');
+src:url('/fonts/calibri.eot#iefix') format('embedded-opentype'),
+url('/fonts/calibri.woff') format('woff'),
+url('/fonts/calibri.ttf') format('truetype'),
+url('/fonts/calibri.svg') format('svg');
 }
 
 
@@ -54,7 +54,7 @@ img, object, embed, video {
 }
 
 .gridcab {
-/*	background-image: url(/web/20180323010537im_/http://hotelchavinsenorial.com/images/backgroundsup.png);*/
+/*	background-image: url(/images/backgroundsup.png);*/
 	background-color:#6A383B;
 	color:#FFF;
 	clear: none;
@@ -73,7 +73,7 @@ img, object, embed, video {
 
 .gridinf {
 	background-color: #6A383B;
-/*	background-image:url(/web/20180323010537im_/http://hotelchavinsenorial.com/images/bg_inf.png);
+/*	background-image:url(/images/bg_inf.png);
 	background-repeat:repeat-x;*/
 /*	border-top:1px solid #7B6A5A;*/
 	clear: none;
@@ -452,7 +452,7 @@ r#socialicons img:hover{
 
 #tit {
 /*	background-color:#B7953B;*/
-/*	background:url(/web/20180323010537im_/http://hotelchavinsenorial.com/images/bg_titulo.png) center no-repeat;*/
+/*	background:url(/images/bg_titulo.png) center no-repeat;*/
 	color: #6A383B;
 /*	font-family: 'droidserif-regular', Arial, Helvetica, sans-serif;*/
 	font-size: 22px;
@@ -588,7 +588,7 @@ textarea {
 }
 
 .scroll-top {
-	background: #C48E2D url('/web/20180323010537im_/http://hotelchavinsenorial.com/css/top.png') no-repeat;
+	background: #C48E2D url('/css/top.png') no-repeat;
 	border-radius: 5px;
 	display: none; /* Estara oculto por defecto */
 	bottom: 78px;
